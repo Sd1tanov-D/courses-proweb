@@ -1,0 +1,17 @@
+body {
+    background: green;
+}
+
+p {
+    color: burlywood !important;
+    background: black;
+    font-style: italic;
+}
+
+.text2 {
+    text-align: center;
+}
+
+.text3 {
+    background: brown;
+}
