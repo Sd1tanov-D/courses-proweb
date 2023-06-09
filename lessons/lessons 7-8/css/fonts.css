@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'inter';
+    src: url('../fonts/Inter-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('../fonts/Inter-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('../fonts/Inter-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+/* 
+ttf = format ('truetype')
+otf = format ('opentype')
+eot = format ('embeddedopentype')
+woff = format ('woff')
+
+100 = Thin
+200 = Extra Light
+300 = Light
+400 = Regular
+500 = Medium
+600 = Semi Bold
+700 = Bold
+800 = Extra Bold
+900 = Black (have bold, bolder)
+ */
+
+
+ 
