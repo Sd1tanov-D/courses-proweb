@@ -1,0 +1,76 @@
+@media (max-width: 1110px) {
+    .section-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-main {
+        width: 100%;
+        max-width: 100%;
+        padding: 25px;
+        margin-bottom: 30px;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .address {
+        padding: 25px;
+        max-width: 100%; 
+    }
+
+    .address-info {
+        margin-bottom: 10px;
+    }
+
+    .address-tel {
+        margin-bottom: 10px;
+    }
+
+    .footer-wrapper {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-logo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .header-navigation {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .header-navigation__list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-navigation__item {
+        padding: 0;
+        padding-bottom: 10px;
+    }
+
+    .header-navigation__link:last-child {
+        padding: 0;
+    }
+}
+
+@media (max-width: 565px) {
+    .footer {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .footer-tel {
+        margin-top: 30px;
+        text-align: center;
+    }
+}

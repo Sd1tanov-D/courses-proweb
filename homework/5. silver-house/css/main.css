@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+    font-weight: 400;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-logo__link {
+    display: flex;
+}
+
+.header-logo {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.header-navigation {
+    margin-bottom: 30px;
+}
+
+.header-navigation__list {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-navigation__item {
+    padding-right: 30px;
+}
+
+.header-navigation__item:last-child {
+    padding: 0;
+}
+
+.header-navigation__link {
+    font-size: 18px;
+    line-height: 21px;
+    color: #8C8A8A;
+}
+
+.header-navigation__link:hover,
+.address-tel__link:hover,
+.address-mail__link:hover,
+.footer-tel__number:hover {
+    color: rgb(25, 201, 198);
+}
+
+.section-image {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.image-company {
+    height: auto;
+    width: 100%;
+    max-width: 1110px;
+}
+
+.section-about {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.about-main {
+    max-width: 730px;
+    height: auto;
+    padding: 50px 95px 51px 40px;
+    background-color: #F0F0F0;
+}
+
+.address {
+    font-style: normal;
+}
+
+.about-main__header,
+.address-header {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 25px;
+    color: #4581B7;
+}
+
+.address-info {
+    margin-bottom: 41px;
+}
+
+.address-tel {
+    margin-bottom: 68px;
+}
+
+.about-main__text,
+.address-info,
+.address-tel__link,
+.address-mail__link {
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+}
+
+.address {
+    max-width: 350px;
+    height: auto;
+    padding: 50px 24px 159px 40px;
+    background-color: #F0F0F0;
+}
+
+.footer {
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.footer-logo__link {
+    display: flex;
+}
+
+.footer-tel {
+    text-align: right;
+}
+.footer-tel__info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10px;
+    color: #808080;
+}
+
+.footer-tel__number {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #808080;
+}
+
+
+
+
+
